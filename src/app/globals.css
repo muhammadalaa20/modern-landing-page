@@ -2,32 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.btn {
+    clip-path: polygon(5% 6%, 95% 6%, 100% 100%, 0% 100%);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.btn--hero {
+    clip-path: polygon(3% 0, 97% 0, 100% 100%, 0% 100%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.btn--box {
+    clip-path: polygon(3% 0, 97% 0, 100% 100%, 0% 100%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.home{
+    font-weight: bold;
+}
+.home::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #004956;
+    transition: width .8s ease-in-out;
+}
+.home:hover::after{
+    width: 100%;
 }
