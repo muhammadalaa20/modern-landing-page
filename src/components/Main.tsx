@@ -13,7 +13,7 @@ export default function Main() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1, ease: "easeInOut", delay: 0.2 }}
                 viewport={{ once: true }}
-                className="w-full py-20 flex flex-col items-center justify-center bg-base-200">
+                className="w-full py-20 flex flex-col items-center justify-center bg-[#f2f2f2]">
                 <div className="w-full flex flex-col items-center justify-center p-8 gap-7">
                     <h1 className="text-4xl font-bold text-center text-[#004956]">Main</h1>
                     <p className="text-center text-[#457077]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
