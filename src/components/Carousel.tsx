@@ -14,7 +14,7 @@ export default function CarouselDummy() {
     const scrollRef = useRef(null)
     const carouselVariants: Variants = {
         offscreen: {
-            y: 20,
+            y: 300,
             opacity: 0,
         },
         onscreen: {
