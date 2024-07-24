@@ -11,7 +11,7 @@ import {
 
 export default function DesNav() {
     return (
-        <div className="desNav w-full px-20 lg:px-24 xl:px-32 py-5 flex justify-between items-center transition-all duration-400 ease-in-out">
+        <div className="desNav bg-[#BAF3E6] w-full px-20 lg:px-24 xl:px-32 py-5 flex justify-between items-center transition-all duration-400 ease-in-out">
             <div className="logo flex items-center justify-center" id="logo">
                 <Link href='/'><Image src="/idea.svg" height={50} width={50} alt="logo" className="icon"/></Link>
                 <h1 className="leading-tight pt-2">IDEA <br /> Idea</h1>

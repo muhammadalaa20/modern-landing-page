@@ -42,7 +42,7 @@ export default function MobNav() {
         setOpenThree(false)
     }
     return (
-        <div className="mobNav w-full flex items-center justify-between px-3 py-5">
+        <div className="mobNav bg-[#BAF3E6] w-full flex items-center justify-between px-3 py-5">
             <div className="logo flex items-center justify-center" id="logo">
                 <Link href='/'><Image src="/idea.svg" height={50} width={50} alt="logo" className="icon"/></Link>
                 <h1 className="leading-tight pt-2">IDEA<br />Idea</h1>
