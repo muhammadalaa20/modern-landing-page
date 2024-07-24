@@ -19,7 +19,7 @@ export default function Header() {
         }
     })
     return (
-        <header className="header w-full sticky top-0 bg-[#BAF3E6] bg-opacity-95 z-40">
+        <header className="header w-full sticky top-0 bg-[#BAF3E6] header z-40">
             {/* Desktop nav */}
             <div className="hidden lg:block xl:block transition-all duration-300 ease-in-out" id="desNav">
                 <DesNav />

@@ -44,3 +44,7 @@
 .home:hover::after{
     width: 100%;
 }
+
+.header{
+    opacity: .95;
+}

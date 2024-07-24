@@ -25,7 +25,7 @@ export default function Main() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, ease: "easeInOut", delay: 0.1 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-base-200 hover:border-[#BAF3E6] cursor-pointer">
+                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-[#f2f2f2] hover:border-[#BAF3E6] cursor-pointer">
                         <div className="w-16 h-14 bg-transparent btn--box border-4 border-[#BAF3E6]"><Image src="/idea.svg" alt="hero--image" height={1000} width={1000} className="w-full h-full" /></div>
                         <div>
                             <h1 className="text-3xl font-bold">Idea Website</h1>
@@ -38,7 +38,7 @@ export default function Main() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, ease: "easeInOut", delay: 0.2 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-base-200 hover:border-[#BAF3E6] cursor-pointer">
+                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-[#f2f2f2] hover:border-[#BAF3E6] cursor-pointer">
                         <div className="w-16 h-14 bg-transparent btn--box border-4 border-[#BAF3E6]"><Image src="/idea.svg" alt="hero--image" height={1000} width={1000} className="w-full h-full" /></div>
                         <div>
                             <h1 className="text-3xl font-bold">Idea Website</h1>
@@ -51,7 +51,7 @@ export default function Main() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, ease: "easeInOut", delay: 0.3 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-base-200 hover:border-[#BAF3E6] cursor-pointer">
+                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-[#f2f2f2] hover:border-[#BAF3E6] cursor-pointer">
                         <div className="w-16 h-14 bg-transparent btn--box border-4 border-[#BAF3E6]"><Image src="/idea.svg" alt="hero--image" height={1000} width={1000} className="w-full h-full" /></div>
                         <div>
                             <h1 className="text-3xl font-bold">Idea Website</h1>
@@ -64,7 +64,7 @@ export default function Main() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, ease: "easeInOut", delay: 0.4 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-base-200 hover:border-[#BAF3E6] cursor-pointer">
+                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-[#f2f2f2] hover:border-[#BAF3E6] cursor-pointer">
                         <div className="w-16 h-14 bg-transparent btn--box border-4 border-[#BAF3E6]"><Image src="/idea.svg" alt="hero--image" height={1000} width={1000} className="w-full h-full" /></div>
                         <div>
                             <h1 className="text-3xl font-bold">Idea Website</h1>
@@ -77,7 +77,7 @@ export default function Main() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, ease: "easeInOut", delay: 0.5 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-base-200 hover:border-[#BAF3E6] cursor-pointer">
+                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-[#f2f2f2] hover:border-[#BAF3E6] cursor-pointer">
                         <div className="w-16 h-14 bg-transparent btn--box border-4 border-[#BAF3E6]"><Image src="/idea.svg" alt="hero--image" height={1000} width={1000} className="w-full h-full" /></div>
                         <div>
                             <h1 className="text-3xl font-bold">Idea Website</h1>
@@ -90,7 +90,7 @@ export default function Main() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, ease: "easeInOut", delay: 0.6 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-base-200 hover:border-[#BAF3E6] cursor-pointer">
+                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-[#f2f2f2] hover:border-[#BAF3E6] cursor-pointer">
                         <div className="w-16 h-14 bg-transparent btn--box border-4 border-[#BAF3E6]"><Image src="/idea.svg" alt="hero--image" height={1000} width={1000} className="w-full h-full" /></div>
                         <div>
                             <h1 className="text-3xl font-bold">Idea Website</h1>
@@ -103,7 +103,7 @@ export default function Main() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, ease: "easeInOut", delay: 0.7 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-base-200 hover:border-[#BAF3E6] cursor-pointer">
+                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-[#f2f2f2] hover:border-[#BAF3E6] cursor-pointer">
                         <div className="w-16 h-14 bg-transparent btn--box border-4 border-[#BAF3E6]"><Image src="/idea.svg" alt="hero--image" height={1000} width={1000} className="w-full h-full" /></div>
                         <div>
                             <h1 className="text-3xl font-bold">Idea Website</h1>
@@ -116,7 +116,7 @@ export default function Main() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, ease: "easeInOut", delay: 0.8 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-base-200 hover:border-[#BAF3E6] cursor-pointer">
+                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-[#f2f2f2] hover:border-[#BAF3E6] cursor-pointer">
                         <div className="w-16 h-14 bg-transparent btn--box border-4 border-[#BAF3E6]"><Image src="/idea.svg" alt="hero--image" height={1000} width={1000} className="w-full h-full" /></div>
                         <div>
                             <h1 className="text-3xl font-bold">Idea Website</h1>
@@ -129,7 +129,7 @@ export default function Main() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: .5, ease: "easeInOut", delay: .9 }}
                         viewport={{ once: true }}
-                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-base-200 hover:border-[#BAF3E6] cursor-pointer">
+                        className="flex items-center justify-start gap-6 bg-white p-5 rounded-xl border-4 border-[#f2f2f2] hover:border-[#BAF3E6] cursor-pointer">
                         <div className="w-16 h-14 bg-transparent btn--box border-4 border-[#BAF3E6]"><Image src="/idea.svg" alt="hero--image" height={1000} width={1000} className="w-full h-full" /></div>
                         <div>
                             <h1 className="text-3xl font-bold">Idea Website</h1>
